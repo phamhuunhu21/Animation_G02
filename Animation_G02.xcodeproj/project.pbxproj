@@ -14,6 +14,8 @@
 		3E29B6C51E9E864E00D9ADED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E29B6C31E9E864E00D9ADED /* LaunchScreen.storyboard */; };
 		3E29B6D01E9E864E00D9ADED /* Animation_G02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29B6CF1E9E864E00D9ADED /* Animation_G02Tests.swift */; };
 		3E29B6DB1E9E864E00D9ADED /* Animation_G02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29B6DA1E9E864E00D9ADED /* Animation_G02UITests.swift */; };
+		3E29B6E91E9E898200D9ADED /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29B6E81E9E898200D9ADED /* ButtonViewController.swift */; };
+		3E29B6EB1E9E8BCA00D9ADED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29B6EA1E9E8BCA00D9ADED /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3E29B6D61E9E864E00D9ADED /* Animation_G02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animation_G02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E29B6DA1E9E864E00D9ADED /* Animation_G02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_G02UITests.swift; sourceTree = "<group>"; };
 		3E29B6DC1E9E864E00D9ADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E29B6E81E9E898200D9ADED /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		3E29B6EA1E9E8BCA00D9ADED /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3E29B6C11E9E864E00D9ADED /* Assets.xcassets */,
 				3E29B6C31E9E864E00D9ADED /* LaunchScreen.storyboard */,
 				3E29B6C61E9E864E00D9ADED /* Info.plist */,
+				3E29B6E81E9E898200D9ADED /* ButtonViewController.swift */,
+				3E29B6EA1E9E8BCA00D9ADED /* TableViewController.swift */,
 			);
 			path = Animation_G02;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E29B6BD1E9E864E00D9ADED /* ViewController.swift in Sources */,
+				3E29B6E91E9E898200D9ADED /* ButtonViewController.swift in Sources */,
 				3E29B6BB1E9E864E00D9ADED /* AppDelegate.swift in Sources */,
+				3E29B6EB1E9E8BCA00D9ADED /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
